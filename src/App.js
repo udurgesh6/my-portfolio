@@ -9,7 +9,7 @@ import Container from "react-bootstrap/Container";
 import Fade from 'react-reveal/Fade';
 import { Parallax } from "react-parallax";
 import background from "./assets/img/parallex/background.webp";
-
+import Skills from './pages/skills/skills.component'
 function App() {
   return (
     <div className="App" style={{position: "relative"}}>
@@ -32,6 +32,17 @@ function App() {
         </Parallax>
       </div>
       
+      {/* Skill Section */}
+      
+      <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+              <Skills/>
+              </Fade>
+            </Container>
+            
+        
+      </div>
     </div>
   );
 }
