@@ -129,7 +129,8 @@ export const skills = {
       skillName: "Heroku",
     },
     {
-      link: "https://www.digitalocean.com/",
+    link: "https://firebase.google.com/images/brand-guidelines/logo-standard.png",
+    //   link: "https://www.digitalocean.com/",
       imgAltText: "Digital Ocean",
       imgSrc: L_DIGITAL_OCEAN,
       skillName: "Digital Ocean",

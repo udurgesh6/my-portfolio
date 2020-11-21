@@ -7,9 +7,12 @@ import TitleMessage from './components/title-message/my-title.component';
 import About from './pages/about/about.component';
 import Container from "react-bootstrap/Container";
 import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import { Parallax } from "react-parallax";
 import background from "./assets/img/parallex/background.webp";
-import Skills from './pages/skills/skills.component'
+import Skills from './pages/skills/skills.component';
+import Services from './pages/Services/services.component';
+
 function App() {
   return (
     <div className="App" style={{position: "relative"}}>
@@ -42,6 +45,15 @@ function App() {
             </Container>
             
         
+      </div>
+
+      {/* Services */}
+      <div>
+        <Container className="container-box rounded">
+          <Slide duration={500}>
+            <Services/>
+          </Slide>
+        </Container>
       </div>
     </div>
   );

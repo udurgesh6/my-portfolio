@@ -19,13 +19,12 @@ const About = () => {
                         <Row className=" align-items-start p-2 my-details rounded">
                             {/* Description */}
                             Hi there! I am <strong>&nbsp;Durgesh Upadhyay</strong>
-                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                <br />A passionate programmer and a data science enthusiast, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and MongoDB as my tech stack along with a knowledge of Data Science in R langauge with ability of Data Visualisation and Data Wrangling techniques.
                 <br />
-                In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
-                <br />
+                Currently I am a student and will be completing my engineering in 2021 with a specialization in Communications Engineering      <br />
                 Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
                 <br />
-                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. 
+                Along with that, I also help people with Data Science tasks of Data Visualisation and Data Wrangling to provide a user with best experience. 
                 <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                 <br /> <br />
                         </Row>
@@ -53,7 +52,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="www.linkedin.com/in/durgeshupadhyay" target="_blank" rel="noopener noreferrer">
+                    <a href="http://linkedin.com/in/durgeshupadhyay" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>
