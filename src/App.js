@@ -12,6 +12,10 @@ import { Parallax } from "react-parallax";
 import background from "./assets/img/parallex/background.webp";
 import Skills from './pages/skills/skills.component';
 import Services from './pages/Services/services.component';
+import ProjectTimeline from "./components/project-timeline/project-timeline.component";
+import ContactForm from "./pages/contact-form/contact-form.component";
+import Footer from "./components/Footer/footer.component";
+
 
 function App() {
   return (
@@ -50,11 +54,35 @@ function App() {
       {/* Services */}
       <div>
         <Container className="container-box rounded">
-          <Slide duration={500}>
+          <Fade duration={500}>
+            <hr/>
             <Services/>
-          </Slide>
+          </Fade>
         </Container>
       </div>
+
+      {/* Projects */}
+      <div>
+            <Container className="container-box rounded">
+              <Slide bottom duration={500}>
+                <hr/>
+              <ProjectTimeline/>
+              </Slide>
+            </Container>
+      </div>
+
+      {/* Contact Form */}
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr/>
+            <ContactForm/>
+          </Fade>
+        </Container>
+      </div>
+
+      <hr/>
+      <Footer/>
     </div>
   );
 }

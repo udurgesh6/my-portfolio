@@ -11,7 +11,7 @@ import smi from '../../assets/img/services/social-media-integration.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CardDeck from 'react-bootstrap/CardDeck';
-import "./services.component.css";
+import "./services.style.css";
 
 const Services = () => {
     return (
@@ -23,8 +23,8 @@ const Services = () => {
                 <Row className="d-flex justify-content-around">
                 <Col md={4}>
                 <Tilt option={{max: 25}}>
-                <Card className="focus mt-2 mb-2" bg="warning" border="dark">
-                    <Card.Img  variant="top" src={websitedesign}/>
+                <Card className="focus mt-2 mb-2"  border="dark">
+                    <Card.Img variant="top" src={websitedesign}/>
                     <Card.Body>
                     <Card.Title  className="text-center  card-title">Website Design</Card.Title>
                     <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -38,7 +38,7 @@ const Services = () => {
 
                 <Col md={4}>
                 <Tilt option={{max: 25}}>
-                <Card className="focus mt-2 mb-2" bg="warning" border="dark">
+                <Card className="focus mt-2 mb-2" border="dark">
                     <Card.Img variant="top" src={websitedevelopment} />
                     <Card.Body>
                     <Card.Title className="text-center  card-title">Website Development</Card.Title>
@@ -53,7 +53,7 @@ const Services = () => {
 
                 <Col md={4}>
                 <Tilt option={{max: 25}}>
-                <Card className="focus mt-2 mb-2" bg="warning" border="dark">
+                <Card className="focus mt-2 mb-2" border="dark">
                     <Card.Img variant="top" src={ecomm} />
                     <Card.Body>
                     <Card.Title className="text-center  card-title">E-commerce Solution</Card.Title>
@@ -73,7 +73,7 @@ const Services = () => {
                 <Row className="d-flex justify-content-around">
                 <Col md={4}>   
                 <Tilt option={{max: 25}}>
-                <Card className="focus mt-2 mb-2" bg="warning" border="dark">
+                <Card className="focus mt-2 mb-2" border="dark">
                     <Card.Img variant="top" src={resp} />
                     <Card.Body>
                     <Card.Title className="text-center  card-title">Responsive Website Design</Card.Title>
@@ -88,7 +88,7 @@ const Services = () => {
 
                 <Col md={4}>
                 <Tilt option={{max: 25}}>
-                <Card className="focus mt-2 mb-2" bg="warning" border="dark">
+                <Card className="focus mt-2 mb-2" border="dark">
                     <Card.Img variant="top" src={seo} />
                     <Card.Body>
                     <Card.Title className="text-center  card-title">SEO(Search Engine Optimisation)</Card.Title>
@@ -103,7 +103,7 @@ const Services = () => {
 
                 <Col md={4}>
                 <Tilt option={{max: 25}}>
-                <Card className="focus mt-2 mb-2" bg="warning" border="dark">
+                <Card className="focus mt-2 mb-2" border="dark">
                     <Card.Img variant="top" src={smi} />
                     <Card.Body>
                     <Card.Title className="text-center  card-title">Social Media Integration</Card.Title>

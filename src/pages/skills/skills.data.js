@@ -23,6 +23,9 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.png";
+import L_JAVA from "../../assets/img/skills/java.png";
+import L_R from "../../assets/img/skills/r.jpg";
 
 export const skills = {
   frontend: [
@@ -121,6 +124,7 @@ export const skills = {
       skillName: "Flask",
     },
   ],
+
   hostingPlatforms: [
     {
       link: "https://www.heroku.com/",
@@ -129,8 +133,8 @@ export const skills = {
       skillName: "Heroku",
     },
     {
-    link: "https://firebase.google.com/images/brand-guidelines/logo-standard.png",
-    //   link: "https://www.digitalocean.com/",
+    
+      link: "https://www.digitalocean.com/",
       imgAltText: "Digital Ocean",
       imgSrc: L_DIGITAL_OCEAN,
       skillName: "Digital Ocean",
@@ -141,6 +145,12 @@ export const skills = {
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
+    },
   ],
   programmingLanguages: [
     {
@@ -150,24 +160,19 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
+      link: "https://www.r-project.org/",
+      imgAltText: "R",
+      imgSrc: L_R,
+      skillName: "R",
     },
     {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
-    },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
+      link: "https://www.java.com/en/",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: "Java",
     },
   ],
+
   databases: [
     {
       link: "https://www.postgresql.org/",
@@ -176,18 +181,13 @@ export const skills = {
       skillName: "PostgreSQL",
     },
     {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
-    },
-    {
       link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
     },
   ],
+  
   versionControl: [
     {
       link: "https://git-scm.com/",

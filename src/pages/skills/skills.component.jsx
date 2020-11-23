@@ -34,7 +34,7 @@ const Skills = () => {
                           </Card>
                     </Col>
 
-                    {/* Backend */}
+          {/* Backend */}
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
